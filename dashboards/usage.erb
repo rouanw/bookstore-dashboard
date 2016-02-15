@@ -1,0 +1,39 @@
+<% content_for :title do %>My super sweet dashboard<% end %>
+
+<center><h3>Today's Usage Statistics</h3></center>
+
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="books" data-view="Number" data-title="Books sold"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="sales" data-view="Number" data-title="Total transaction value" data-prefix="$"></div>
+    </li>
+
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="voucher" data-view="Number" data-title="Average basket total" data-current="13.04" data-prefix="$"></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="new" data-view="Text" data-title="New customers" data-text="62" style="background-color: rgb(13,	161,	186)"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="new" data-view="Text" data-title="New customers using vouchers" data-text="36"></div>
+    </li>
+
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="voucher" data-view="Text" data-title="Vouchers redeemed" data-text="412"></div>
+    </li>
+
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="cross" data-view="Percent" data-title="Suggested book purchased" data-min="0" data-max="100"></div>
+    </li>
+
+
+  </ul>
+
+
+</div>
